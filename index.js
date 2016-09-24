@@ -4,7 +4,7 @@ const ReactDOM = require('react-dom');
 const Spaceship = require('./components/Spaceship');
 
 ReactDOM.render(
-  <Spaceship name="Millennium Falcon" colors='blue' />,
+  <Spaceship name="Millennium Falcon" />,
   document.getElementById('main')
 );
 
